@@ -33,13 +33,15 @@ int main() {
 	{
 	case 1:
 	{
-		cout << "Данная функция находится в разработке" << endl;
+		std::cout << num1 <<" + " << num2 << " = " << sum(num1, num2) << endl;
+		system("pause");
 		break;
 	}
 
 	case 2:
 	{
-		cout << "Данная функция находится в разработке" << endl;
+		std::cout << num1 << " / " << num2 << " = " << div(num1, num2) << endl;
+		system("pause");
 		break;
 	}
 
