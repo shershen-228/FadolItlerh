@@ -17,9 +17,9 @@ int main() {
 		system("cls");
 		cout << "Введите номер желаемой операции:" << endl;
 		cout << "1 - сложение" << endl;
-		cout << "2 - вычитание" << endl;
-		cout << "3 - умножение" << endl;
-		cout << "4 - деление" << endl;
+		cout << "2 - деление" << endl;
+		cout << "3 - вычитание" << endl;
+		cout << "4 - умножение" << endl;
 		cin >> funcnumb;
 		if ((funcnumb == 1) || (funcnumb == 2) || (funcnumb == 3) || (funcnumb == 4))
 		{
@@ -47,13 +47,15 @@ int main() {
 
 	case 3:
 	{
-		cout << "Данная функция находится в разработке" << endl;
+		std::cout << num1 << " - " << num2 << " = " << dif(num1, num2) << endl;
+		system("pause");
 		break;
 	}
 
 	case 4:
 	{
-		cout << "Данная функция находится в разработке" << endl;
+		std::cout << num1 << " * " << num2 << " = " << mul(num1, num2) << endl;
+		system("pause");
 		break;
 	}
 	default:
